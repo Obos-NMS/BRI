@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC 01
+TC 02
+TC 03
+TC 04</description>
+   <name>TC 04- transferBerulang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65dccb3c-cfc2-44f2-9c0a-52ea8b64e212</testCaseGuid>
+</TestCaseEntity>

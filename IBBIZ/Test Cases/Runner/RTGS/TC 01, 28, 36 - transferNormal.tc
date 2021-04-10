@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC 01
+TC 02
+TC 03
+TC 04</description>
+   <name>TC 01, 28, 36 - transferNormal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4713677-a9bc-4449-813f-a761ff501b04</testCaseGuid>
+</TestCaseEntity>
