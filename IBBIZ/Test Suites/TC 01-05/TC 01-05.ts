@@ -15,6 +15,6 @@
       <guid>91439c76-5e7c-48f5-a9f4-34510d434378</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Runner/PLN/TC 01-02, dan 09,12, 23, 24 prabayarNormal</testCaseId>
+      <testCaseId>Test Cases/Runner/PLN/TC 01, 02,09,12, 23, 24, 28, 29 prabayarNormal</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

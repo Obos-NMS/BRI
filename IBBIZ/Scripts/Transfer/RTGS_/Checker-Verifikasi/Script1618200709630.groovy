@@ -16,11 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'personalisasiBeranda.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 
-WebUI.click(findTestObject('Beranda - Tambah Transaksi/Page_iBBIZ BRI/a_Pembayaran  Pembelian'), personalisasiBeranda.toString())
+WebUI.click(findTestObject('Transfer/Signer approval/Page_iBBIZ BRI/i_Tidak_fa fa-arrow-down my-float-down'))
 
-WebUI.click(findTestObject('Simpan ID Pelanggan/Personalisasi Beranda/Page_iBBIZ BRI/span_'))
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'verifikasi.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Favorit/Page_iBBIZ BRI/span_-  remove favorit'))
+value = verifikasi.toString()
+WebUI.click(findTestObject('Transfer/Signer approval/Page_iBBIZ BRI/button_APPROVE', [('value') : "$value"]))
 
+WebUI.click(findTestObject('Transfer/Signer approval/Page_iBBIZ BRI/button_Ya'))

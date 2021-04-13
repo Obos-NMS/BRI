@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC26 || Signer -Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan menggunakan rekening sumber giro saldo cukup
+TC27 || Signer - Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan menggunakan rekening sumber tabungan saldo cukup</description>
+   <name>TC 26, 27 singleuserPascaBayar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7db00e9b-a424-4d01-b937-af926a7f90c0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC01-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian menggunakan rekening sumber giro aktif 
+
+TC02-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian menggunakan rekening sumber tabungan aktif 
+
+
+TC09-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian menggunakan No pembayaran atau ID Pelanggan yang sudah tersimpanA
+
+TC12-Melakukan pencarian data transaksi pada menu informasi pembayaran
+
+TC23-Melakukan approve transaksi melalui navigasi menu pembayaran &amp; pembelian
+
+TC24-Melakukan tolak transaksi saat approve transaksi melalui navigasi menu pembayaran &amp; pembelian
+
+TC28-Menampilkan Info limit transaksi di halaman approval data
+
+TC29-Pencarian data transaksi di halaman approval data
+</description>
+   <name>TC 01, 02,09,12, 23, 24, 28, 29 prabayarNormal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc8a8f8a-07b6-458d-8e6a-7d2934f30acc</testCaseGuid>
+</TestCaseEntity>

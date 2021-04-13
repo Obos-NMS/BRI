@@ -20,7 +20,6 @@ import com.kms.katalon.entity.global.GlobalVariableEntity
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'nav.debit.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Bayar/Page_iBBIZ BRI/span_Rekening Debit'))

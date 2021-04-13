@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC01-Melakukan pembayaran tagihan listrik menggunakan rekening sumber giro aktif
+
+TC02-Melakukan pembayaran tagihan listrik menggunakan rekening sumber tabungan aktif 
+
+TC06-Melakukan pembayaran tagihan listrik dengan menggunakan no pembayaran atau id pelanggan yang sudah tersimpan
+
+TC10-Melakukan verifikasi melalui navigasi menu pembayaran &amp; pembelian
+
+TC11-Melakukan tolak transaksi saat verifikasi transaksi melalui navigasi menu pembayaran &amp; pembelian
+
+TC15-Menampilkan Info limit transaksi di halaman verifikasi data
+
+TC16-Pencarian data transaksi di halaman verifikasi data</description>
+   <name>TC 01,02, 06, 10, 11, 15, 16 pascabayarNormal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92734eba-ce82-4e26-b0f3-974ac02c6ba7</testCaseGuid>
+</TestCaseEntity>

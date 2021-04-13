@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'permintaan baru.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 value = permintaanBaru.toString()
 WebUI.click(findTestObject('Transfer/Beranda/Page_iBBIZ BRI/a_RTGS1', [('value') : "$value"]))
 

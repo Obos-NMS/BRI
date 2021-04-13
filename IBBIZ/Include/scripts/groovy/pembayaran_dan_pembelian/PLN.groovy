@@ -51,6 +51,10 @@ class PLN {
 	@And("Menggunakan flow multiple user")
 	def Menggunakan_flow_multiple_user() {
 	}
+	
+	@And("Menggunakan flow single user")
+	def Menggunakan_flow_single_user() {
+	}
 
 	@When("Login menggunakan maker (.*) dan (.*) dan (.*)")
 	def Login_menggunakan_maker_client_dan_username_dan_password(String client, String username, String password) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC05- Melakukan pembayaran tagihan listrik dan menyimpan no pembayaran atau ID Pelanggan</description>
    <name>TC 05 pascabayarSimpanID</name>
    <tag></tag>
    <comment></comment>

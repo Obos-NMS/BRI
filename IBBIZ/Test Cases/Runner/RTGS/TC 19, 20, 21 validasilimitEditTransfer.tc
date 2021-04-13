@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC19-Melakukan edit transaksi dengan mengubah nominal kurang dari limit minimal yang ditentukan
+TC20-Melakukan edit transaksi dengan mengubah nominal lebih dari limit maksimal yang ditentukan
+TC21-Melakukan edit transaksi dengan mengubah nominal lebih dari limit batasan harian yang ditentukan</description>
+   <name>TC 19, 20, 21 validasilimitEditTransfer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38795988-f121-48e2-8e7d-100c6fa2da67</testCaseGuid>
+</TestCaseEntity>

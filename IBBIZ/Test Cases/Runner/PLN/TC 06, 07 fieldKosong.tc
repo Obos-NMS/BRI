@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC06-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian dengan mengosongkan salah satu kolom inputan dan melakukan submit transaksi
+
+TC07-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian dan memastikan validasi minimal yaitu kurang dari 11 digit dan maksimal yaitu lebih dari 12 digit inputan pada kolom ID Pelanggan
+
+TC50-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan menggunakan No Pembayaran 11 Digit
+
+TC51-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan menggunakan No Pembayaran 12 Digit</description>
+   <name>TC 06, 07 fieldKosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22e2e8ca-166d-416a-8fdd-1dfad8e950f3</testCaseGuid>
+</TestCaseEntity>

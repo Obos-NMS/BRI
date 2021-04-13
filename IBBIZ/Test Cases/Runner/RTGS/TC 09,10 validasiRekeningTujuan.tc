@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC09-Membuat transaksi dengan menginputkan rekening kredit yang sama dengan rekening debit
+TC10-Membuat transaksi dengan menginputkan rekening kredit yang tidak sesuai dengan bank tujuan</description>
+   <name>TC 09,10 validasiRekeningTujuan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3dad86c4-83a5-49fa-8666-401a65ce0f0e</testCaseGuid>
+</TestCaseEntity>

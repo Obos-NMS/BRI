@@ -16,11 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'personalisasiBeranda.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 
-WebUI.click(findTestObject('Beranda - Tambah Transaksi/Page_iBBIZ BRI/a_Pembayaran  Pembelian'), personalisasiBeranda.toString())
-
-WebUI.click(findTestObject('Simpan ID Pelanggan/Personalisasi Beranda/Page_iBBIZ BRI/span_'))
-
-WebUI.click(findTestObject('Object Repository/Favorit/Page_iBBIZ BRI/span_-  remove favorit'))
-
+CucumberKW.runFeatureFileWithTags('Include/features/IBBIZ/Pembayaran dan Pembelian/PLN-Maker.feature', '@pln', '@singleuserPraBayar')

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC02-Membuat transaksi menggunakan rekening sumber tabungan aktif </description>
    <name>TC 02 tambahTransaksi</name>
    <tag></tag>
    <comment></comment>

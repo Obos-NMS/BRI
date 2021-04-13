@@ -104,7 +104,17 @@ class RTGS {
 	}
 
 	@And("Signer lakukan (.*) transaksi")
-	def Signer_konfirmasi_transaksi(String konfirmasi) {
+	def Signer_lakukan_konfirmasi_transaksi(String konfirmasi) {
 		WebUI.callTestCase(findTestCase('Transfer/RTGS_/Signer_APPROVE'), [('konfirmasi') : konfirmasi], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@And("Checker lakukan (.*) transaksi")
+	def Checker_lakukan_verifikasi_transaksi(String verifikasi) {
+		WebUI.callTestCase(findTestCase('Transfer/RTGS_/Signer_APPROVE'), [('konfirmasi') : verifikasi], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Login menggunakan checker dengan (.*) dan (.*) dan (.*)")
+	def Login_menggunakan_checker_dengan_clientChecker_dan_userChecker_dan_passChecker(String clientChecker, String userChecker, String passChecker) {
+		WebUI.callTestCase(findTestCase('General/Login'), [('client') : clientChecker, ('username') : userChecker, ('password') : passChecker], FailureHandling.STOP_ON_FAILURE)
 	}
 }

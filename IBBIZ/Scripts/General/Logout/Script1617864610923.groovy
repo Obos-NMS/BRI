@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'logout.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/General/Logout/Page_iBBIZ BRI/a_USRS1'))
 
 WebUI.click(findTestObject('Object Repository/General/Logout/Page_iBBIZ BRI/a_USRS1'))
+
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'logout.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/General/Logout/Page_iBBIZ BRI/a_Logout'))
 

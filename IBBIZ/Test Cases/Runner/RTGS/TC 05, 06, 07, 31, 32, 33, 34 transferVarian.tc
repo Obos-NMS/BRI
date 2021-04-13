@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC05-Membuat transaksi dengan rekening sumber giro close/dormant/freeze
+TC06-Membuat transaksi dengan rekening sumber tabungan close/dormant/freeze
+TC07-Membuat transaksi dengan rekening sumber yang memiliki currency selain IDR
+TC31-Approve transaksi menggunakan rekening giro dengan saldo cukup
+TC32-Approve transaksi menggunakan rekening tabungan dengan saldo cukup
+TC33-Approve transaksi menggunakan rekening giro dengan saldo tidak cukup
+TC34-Approve transaksi menggunakan rekening tabungan dengan saldo tidak cukup
+</description>
+   <name>TC 05, 06, 07, 31, 32, 33, 34 transferVarian</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47f1c5a0-163f-49ce-a086-7218c4fa42d8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC13-Membuat transaksi dengan nominal melewati limit minimal pembayaran
+TC14-Membuat transaksi dengan nominal melewati limit maksimal pembayaran
+TC15-Membuat transaksi dengan nominal melewati limit batas harian pembayaran
+
+TC28||Pasca Bayar||Signer-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan nominal kurang dari limit minimal
+TC29||Pasca Bayar||Signer-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan nominal lebih dari limit maksimal
+TC30||Pasca Bayar||Signer-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan nominal lebih dari limit batasan harian
+
+TC52- Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan nominal kurang dari limit minimal
+TC53-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan nominal lebih dari limit maksimal
+TC54-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan nominal lebih dari limit batasan harian
+
+</description>
+   <name>TC 13, 14, 15, 28, 29, 30, 52, 53, 54 prabayarlimitTransaksi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c704c331-5697-4a19-9034-28121711dcf1</testCaseGuid>
+</TestCaseEntity>

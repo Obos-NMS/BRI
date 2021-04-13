@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC11 -Membuat transaksi prabayar PLN melalui button tambah transaksi yang ada pada favorite menu PLN yang ada di halaman dashboard/beranda
+
+TC12- Melakukan pencarian data transaksi pada menu informasi pembayaran</description>
+   <name>TC 11, 12 prabayarberanda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa95dfda-11d6-49fd-8cef-d33bf4be43eb</testCaseGuid>
+</TestCaseEntity>

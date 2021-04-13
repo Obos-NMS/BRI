@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC30-Melihat data transaksi yang ingin di approve melalui menu favorite dashboard</description>
    <name>TC 30 permintaanBaru</name>
    <tag></tag>
    <comment></comment>

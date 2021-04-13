@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC12-Membuat transaksi dengan menginputkan nominal kurang dari limit minimal
+TC13-Membuat transaksi dengan menginputkan nominal lebih dari limit maksimal
+TC14-Membuat transaksi dengan menginputkan nominal lebih dari limit batasan harian</description>
+   <name>TC 12, 13, 14 validasiLimit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3901595-6e0e-49e6-ba1e-6d90665ad882</testCaseGuid>
+</TestCaseEntity>

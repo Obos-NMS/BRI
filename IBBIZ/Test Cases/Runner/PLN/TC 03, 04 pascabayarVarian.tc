@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC03-Melakukan pembayaran tagihan listrik menggunakan rekening sumber giro close/dormant/freeze
+TC04-Melakukan pembayaran tagihan listrik menggunakan rekening sumber tabungan close/dormant/freeze.</description>
+   <name>TC 03, 04 pascabayarVarian</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c07e498-5966-4829-81b4-eab4765a8bc5</testCaseGuid>
+</TestCaseEntity>

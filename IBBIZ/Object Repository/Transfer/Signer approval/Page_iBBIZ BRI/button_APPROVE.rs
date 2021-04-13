@@ -6,16 +6,16 @@
    <elementGuidId>079a785a-55df-443f-becf-855df7a21572</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '${value}' or . = '${value}') and @ref_element = 'Object Repository/Transfer/Signer approval/Page_iBBIZ BRI/iframe_Tidak_content']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-submit.text-white.font-weight-bold.btn-md.float-right</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '${value}' or . = '${value}') and @ref_element = 'Object Repository/Transfer/Signer approval/Page_iBBIZ BRI/iframe_Tidak_content']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

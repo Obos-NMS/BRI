@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC29-Melihat data transaksi yang ingin di approve melalui notifikasi permintaan baru</description>
    <name>TC 29 periksaTransaksi</name>
    <tag></tag>
    <comment></comment>

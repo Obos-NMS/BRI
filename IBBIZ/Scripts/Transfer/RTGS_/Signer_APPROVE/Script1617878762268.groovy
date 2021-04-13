@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('Transfer/Signer approval/Page_iBBIZ BRI/i_Tidak_fa fa-arrow-down my-float-down'))
 
 //WebUI.click(findTestObject('Transfer/Signer approval/Page_iBBIZ BRI/i_Tidak_fa fa-arrow-up my-float-up'))
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'konfirmasi.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 
 value = konfirmasi.toString()
 WebUI.click(findTestObject('Transfer/Signer approval/Page_iBBIZ BRI/button_APPROVE', [('value') : "$value"]))

@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'date.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
+
 WebUI.click(findTestObject('Transfer/RTGS-Terjadwal/Page_iBBIZ BRI/div_Tanggal'))
 
 WebUI.click(findTestObject('Transfer/RTGS-Terjadwal/Page_iBBIZ BRI/input_Tanggal_schdate'))
 
 WebUI.click(findTestObject('Transfer/RTGS-Terjadwal/Page_iBBIZ BRI/input_Tanggal_schdate'))
+
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'tanggal.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
 
 WebUI.click(findTestObject('Transfer/RTGS-Terjadwal/Page_iBBIZ BRI/td_2'))
 

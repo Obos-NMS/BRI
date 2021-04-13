@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC-08 Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian dan simpan no pembayaran atau ID Pelanggan</description>
    <name>TC 08 prabayarnewTransaction</name>
    <tag></tag>
    <comment></comment>

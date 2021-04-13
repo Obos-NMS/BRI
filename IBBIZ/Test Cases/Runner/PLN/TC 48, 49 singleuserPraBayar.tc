@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC48-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan menggunakan rekening sumber giro saldo cukup
+TC49-Membuat transaksi dan melakukan approve transaksi menggunakan user signer dengan menggunakan rekening sumber tabungan saldo cukup</description>
+   <name>TC 48, 49 singleuserPraBayar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9dd6cbb-1eb1-47f4-92a1-8b5f49c3efdb</testCaseGuid>
+</TestCaseEntity>

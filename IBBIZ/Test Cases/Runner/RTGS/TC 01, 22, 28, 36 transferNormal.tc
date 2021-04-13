@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC 01-Membuat transaksi menggunakan rekening sumber giro aktif 
+
+TC 22-Melakukan verifikasi melalui navigasi menu transfer
+
+TC 28-Melihat data transaksi yang ingin di approve melalui navigasi menu transfer
+
+TC 36-Menolak transaksi ketika melakukan approval</description>
+   <name>TC 01, 22, 28, 36 transferNormal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4713677-a9bc-4449-813f-a761ff501b04</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC03-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian menggunakan rekening sumber giro close/dormant/freeze
+
+TC04-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian menggunakan rekening sumber tabungan close/dormant/freeze
+
+TC05-Melakukan pembelian token listrik pada Menu Pembayaran &amp; Pembelian menggunakan rekening sumber yang memiliki currency selain IDR</description>
+   <name>TC 03, 04, 05 praBayarVarian</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8b92599-1ab2-4ddd-bcd8-a178ff11ad2a</testCaseGuid>
+</TestCaseEntity>

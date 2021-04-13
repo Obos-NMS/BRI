@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Transfer/Tambah Transaksi RTGS dari beranda/Page_iBBIZ BRI/a_BERANDA (current)'))
 
+WebUI.takeFullPageScreenshot((((GlobalVariable.Screenshoot + GlobalVariable.todaysDate) + '/') + GlobalVariable.nowTime + '/') + 'tambah transaksi.png', FailureHandling.STOP_ON_FAILURE); WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Transfer/Tambah Transaksi RTGS dari beranda/Page_iBBIZ BRI/a_Tambah Transaksi'))
 

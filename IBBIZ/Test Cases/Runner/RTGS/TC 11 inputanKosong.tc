@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC11-Membuat transaksi dengan mengosongkan salah satu kolom inputan</description>
    <name>TC 11 inputanKosong</name>
    <tag></tag>
    <comment></comment>

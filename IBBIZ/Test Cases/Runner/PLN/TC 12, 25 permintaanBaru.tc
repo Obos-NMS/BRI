@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC25-Menampilkan data approval melalui button notifikasi permintaan baru yang ada dimenu dashboard
+TC12-Menampilkan data verifikasi melalui button notifikasi permintaan baru yang ada dimenu dashboard</description>
+   <name>TC 12, 25 permintaanBaru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2e7f85b-0fad-4714-a392-6a533a00551e</testCaseGuid>
+</TestCaseEntity>
